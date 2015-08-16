@@ -27,27 +27,39 @@
 		padding-bottom: 10px;
 	}
 	#navbar {
-        margin: 0;
-        padding: 0;
+		background-color: #25547B;
+        margin-left:192px; 
+        margin-top: 115px;
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
         list-style-type: none;
-        width: 175px;
+        width: 180px;
     }
-     #navbar li {
-        border-left: 10px solid #666;
-        border-bottom: 1px solid #666;
+    #navbar li {
+        padding-bottom: 5px;     
     }
-     #navbar a {
+    #navbar a {
         background-color: #949494;
         color: #fff;
-        padding: 5px;
+        padding: 10px;
         text-decoration: none;
         font-weight: bold;
-        border-left: 5px solid #33ADFF;
         display: block;
+        text-align: center;
+        font-size: 18px;
     }
     #navbar a:hover {
      background-color: #666;
-     border-left: 5px solid #3333FF;
+    }
+    #navbar_head
+    {
+    	text-align: center;
+    	font-weight: bold;
+    	color: white;
+    	margin-top: 5px;
+    	margin-bottom: 5px;
+    	font-size: 30px;
     }
 </style>
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
@@ -57,12 +69,15 @@
 	<h1>CS:GO ROULETTE</h1>
 	<marquee scrollamount = 15>WORK IN PROGRESS</marquee>
 	<p id=""></p>
-    <ul id="navbar">
-      <li><a href="#">Главная</a></li>
-      <li><a href="#">Новости</a></li>
-      <li><a href="#">Контакты</a></li>
-      <li><a href="#">О нас</a></li>
-    </ul>
+	<div>
+        <ul id="navbar">
+          <li id  = "navbar_head">Меню</li>
+          <li><a href="#">Играть</a></li>
+          <li><a href="#">О сайте</a></li>
+          <li><a href="#">Правила</a></li>
+          <li><a href="#">Тех.поддержка</a></li>
+        </ul>
+    </div>
 
 </body>
 </html>
