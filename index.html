@@ -27,14 +27,16 @@
 		padding-bottom: 10px;
 	}
 	#navbar {
+		position: absolute;
 		background-color: #25547B;
-        margin-left:192px; 
-        margin-top: 115px;
+        margin-left:190px; 
+        margin-top: 60px;
         padding-top: 5px;
         padding-left: 5px;
         padding-right: 5px;
         list-style-type: none;
         width: 180px;
+        min-height: 235px;
     }
     #navbar li {
         padding-bottom: 5px;     
@@ -61,6 +63,25 @@
     	margin-bottom: 5px;
     	font-size: 30px;
     }
+    #panel
+    {
+    	position: absolute;
+    	background-color: #25547B;
+    	margin-left: 400px;
+    	margin-top: 60px;
+    	min-height: 1000px;
+    	width: 1100px;
+    }
+    #Right{
+    	position: absolute;
+    	margin-left: 1515px;
+    	margin-top: 60px;
+    	background-color:#25547B; 
+    	width: 198px;
+    	min-height: 235px;
+    	text-align: center;
+    	color: white;
+    }
 </style>
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" type="image/x-icon" href="img/cs.png">
@@ -78,6 +99,9 @@
           <li><a href="#">Тех.поддержка</a></li>
         </ul>
     </div>
+    <div id="panel"></div>
+    <div id="Right">Тут что-то будет или нет</div>
+    
 
 </body>
 </html>
