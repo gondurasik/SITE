@@ -1,83 +1,93 @@
-	body {
+body {
 		background-color:#27D3BE ;
         font-family: Roboto;
         font-weight: 300;
-        width:100%;
-	}
-	h1 {
-		font-family: "Roboto Condensed";
-		font-size: 5em;
-		text-align: center;
-		position: static;
-        color:#27D3BE ;
-	}
-	marquee {
-		font-family: "Roboto Condensed";
-		font-weight: 400;
-		font-size: 24px;
-		width: 80%;
-		margin-left: 10%;
-		margin-right: 10%;
-		position: absolute;
-		background-color: gray;
-		height: 30px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	#navbar {
-		position: absolute;
-		background-color: #25547B;
-        margin-left:10%; 
-        margin-top: 3%;
-        padding-top: 5px;
-        padding-left: 5px;
-        padding-right: 5px;
-        list-style-type: none;
-        width: 18%;
-        min-height: 15%;
-    }
-    #navbar li {
-        padding-bottom: 5px;     
-    }
-    #navbar a {
-        background-color: #949494;
-        color: #fff;
-        padding: 10px;
-        text-decoration: none;
-        font-weight: 500;
-        display: block;
-        text-align: center;
-        font-size: 18px;
-    }
-    #navbar a:hover {
-     background-color: #666;
-    }
-    #navbar_head
-    {
-    	text-align: center;
-    	font-weight: bold;
-    	color: white;
-    	margin-top: 5px;
-    	margin-bottom: 5px;
-    	font-size: 30px;
-    }
-    #panel
-    {
-    	position: absolute;
-    	background-color: #25547B;
-    	margin-left: 29%;
-    	margin-top: 3%;
-    	min-height: 80%;
-    	width:50%;
-    }
-    #Right{
-    	position: absolute;
-    	padding-top: 5px;
-    	margin-left: 79.5%;
-    	margin-top: 3%;
-    	background-color:#25547B; 
-    	width: 10.5%;
-    	min-height: 23%;
-    	text-align: center;
-    	color: white;
-    }
+}
+h1 {
+    font-family: "Roboto Condensed";
+	font-size: 5em;
+	text-align: center;
+	position: static;
+    color:#27D3BE ;
+}
+/*marquee {
+	font-family: "Roboto Condensed";
+	font-weight: 400;
+	font-size: 24px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	position: absolute;
+	background-color: gray;
+	height: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}*/
+/*Левая панель*/
+#LeftPanel {
+	position: absolute;
+	background-color: #25547B;
+    left:10%; 
+    top: 200px;
+    width: 18%;
+    min-height: 15%;
+    max-height: 300px;
+    /*min-width: 177px;*/
+}
+#LeftPanel ul {
+   list-style-type: none;
+   padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+#LeftPanel ul li {
+    padding-bottom: 5px; 
+}
+#LeftPanel a {
+    background-color: #949494;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+#LeftPanel a:hover {
+    background-color: #666;
+}
+#LeftPanel_head
+{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 30px;
+}
+/*Основная панель*/
+#MainPanel
+{   
+	position: absolute;
+	background-color: #25547B;
+	left: 29%;
+    top: 200px;
+	min-height: 80%;
+	width:50%;
+}
+/*Правая панель*/
+#RightPanel {
+	position: absolute;
+	padding-top: 0px;
+	right: 10%;
+	top: 200px;
+	background-color:#25547B; 
+	width: 10%;
+	height: 15%;
+    max-height: 150px;
+	text-align: center;
+	color: white;
+}
+#RightPanel p {
+    font-family: 'Roboto Condensed';
+}
