@@ -32,6 +32,7 @@ h1 {
     width: 18%;
     min-height: 15%;
     max-height: 300px;
+    float: left;
     /*min-width: 177px;*/
 }
 #LeftPanel ul {
