@@ -1,0 +1,22 @@
+body {
+    background-color:#27D3BE ;
+}
+h1 {
+    font-family: "Roboto Condensed";
+    font-size: 5em;
+    text-align: center;
+    position: static;
+}
+marquee {
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    font-size: 24px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    background-color: gray;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
