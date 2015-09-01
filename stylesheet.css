@@ -1,11 +1,16 @@
 body {
-    background-color:#27D3BE ;
+    /*background-color:#27D3BE ;*/
+    background-image: url(img/backgr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
 }
 h1 {
     font-family: "Roboto Condensed";
     font-size: 5em;
     text-align: center;
-    position: static;
 }
 marquee {
     font-family: "Roboto Condensed";
