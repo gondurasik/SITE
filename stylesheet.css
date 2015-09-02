@@ -25,3 +25,70 @@ marquee {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+a.button1
+{
+	position: absolute;
+	font-size: x-large;
+	width: 15.5%;
+	height: 20px;
+	text-align: center;
+	font-weight: 800;
+    color: black;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 4px;
+    background: #fdd64a;
+    transition: 0.2s;
+    box-shadow: 0 -3px #b79b34 inset;
+    text-decoration: none;
+    margin-top: 15%;
+    margin-left: 43%;
+
+
+}
+a.button1:hover{
+	background-color: #b79b34;
+}
+a.button2
+{
+	position: absolute;
+	font-size: x-large;
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	font-weight: 800;
+    color: black;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 4px;
+    background: #fdd64a;
+    transition: 0.2s;
+    box-shadow: 0 -3px #b79b34 inset;
+    text-decoration: none;
+    margin-top: 19%;
+    margin-left: 43%;
+
+}
+a.button2:hover{
+	background-color: #b79b34;
+}
+a.button3
+{
+	position: absolute;
+	font-size: x-large;
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	font-weight: 800;
+    color: black;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 4px;
+    background: #fdd64a;
+    transition: 0.2s;
+    box-shadow: 0 -3px #b79b34 inset;
+    text-decoration: none;
+    margin-top: 23%;
+    margin-left: 43%;
+
+}
+a.button3:hover{
+	background-color: #b79b34;
+}
