@@ -26,22 +26,28 @@ marquee {
     padding-bottom: 10px;
 }
 #navbar{
-	margin-left: 38%;
-	margin-top: 12%
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    right: 20%;
+    height: 50%;
+    top: 30%;
 }
-a.button
+.button
 {
-	position: absolute;
-	font-size: x-large;
-	min-width: 15.5%;
+	display: block;
+    margin:  10px auto;
+    font-family: 'Roboto Condensed';
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 370px;
 	min-height: 20px;
 	text-align: center;
-	font-weight: 800;
     color: black;
     padding: .8em 1em calc(.8em + 3px);
     border-radius: 4px;
     background: #fdd64a;
-    transition: 0.2s;
+    transition: 0.3s;
     box-shadow: 0 -3px #b79b34 inset;
     text-decoration: none;
     
