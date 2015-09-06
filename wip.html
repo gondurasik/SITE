@@ -4,41 +4,83 @@
 	<meta charset="UTF-8">
 	<title>CS:GO roulette</title>
 <style type="text/css">
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic);
 	body {
 		/*background-color:#27D3BE ;*/
 		background-image: url(img/07t2mb2.gif);
 	}
-	h1 {
-		font-family: "Roboto Condensed";
-		font-size: 5em;
+	
+	#title {
+		font-family: 'Roboto Condensed';
+		font-size: 6em;
+		font-weight: 700;
 		text-align: center;
 		position: static;
 		color: white;
 	}
-	marquee {
-		font-family: "Roboto Condensed";
-		font-weight: 400;
-		font-size: 24px;
-		width: 80%;
-		margin-left: 10%;
-		margin-right: 10%;
-		position: absolute;
+	#wip {
 		background-color: gray;
-		height: 30px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-
+		width: 80%;
+		margin: 0 10%;
+		padding: 15px 0;
+		font-family: 'Roboto Condensed';
+		font-size: 24px;
 	}
+	
 </style>
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<!-- <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'> -->
 <link rel="shortcut icon" type="image/x-icon" href="img/cs.png">
+<!-- MD -->
+<link rel="stylesheet" href="./material.min.css">
+<script src="./material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 <body>
-	<h1>CS:GO ROULETTE</h1>
-	<marquee scrollamount = 15>WORK IN PROGRESS</marquee>
-	<!--aaaoooooo -->
+	<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">CS:GO Roulette</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Это будет видно только на больших экранах -->
+      <!-- Navigation. We hide it in small screens. -->
+      <!-- <nav class="mdl-navigation mdl-layout--large-screen-only">
+        <a class="mdl-navigation__link" href="">хз</a>
+        <a class="mdl-navigation__link" href="">че тут</a>
+        <a class="mdl-navigation__link" href="">ваще</a>
+        <a class="mdl-navigation__link" href="">не знаю</a>
+      </nav> -->
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Меню</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Играть</a>
+      <a class="mdl-navigation__link" href="">Помощь</a>
+      <a class="mdl-navigation__link" href="">О нас</a>
+      <!-- <a class="mdl-navigation__link" href="">Link</a> -->
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+    <div class="page-content">
+    	<!-- ЗДЕСЬ ИДЕТ ВСЁ СОДЕРЖИМОЕ СТРАНИЦЫ -->
+    	<h1 id="title">CS:GO ROULETTE</h1>
+	<marquee scrollamount=15 id="wip">WORK IN PROGRESS</marquee>
+	
+	
 
- 
 
+
+
+
+
+
+
+</div>
+  </main>
+</div>
 </body>
 </html>
